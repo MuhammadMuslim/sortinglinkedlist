@@ -33,15 +33,17 @@ public class SortLinkedList {
         ssl.sort();
         ssl.cetak("NIM\t| Nama  \t| Score\t|");
         System.out.println("Dimasukkan data baru ");
-        ssl.sisip(mhs5, mhs2);
+        ssl.sisip(mhs6);
         System.out.println("Sebelum DIURUTKAN : ");
         ssl.cetak("NIM\t| Nama \t| Score\t|");
         System.out.println("sesudah diurutkan : ");
         ssl.sort();
         ssl.cetak("NIM\t| Nama\t| Score\t|");
-        ssl.hapusDiDepan();
-        ssl.cetak("NIM\t| Nama\t| Score\t|");
-        ssl.hapusData(mhs5);
+//        ssl.hapusDiDepan();
+//        System.out.println("Hapus Data Pertama : ");
+//        ssl.cetak("NIM\t| Nama\t| Score\t|");
+        ssl.hapusData(mhs6);
+        System.out.println("5 Score Tertinggi : ");
         ssl.cetak("NIM\t| Nama\t| Score\t|");
     }
 }

@@ -27,9 +27,9 @@ public class LinkedList {
         pointer = nodeBaru;
     }
     
-    public boolean sisip(mahasiswa dt1, mahasiswa dt2) {
-        Node n = pointer; //n digunakan utk mencari posisi dt2
-        while ((n != null) && (n.data != dt2)) {
+    public boolean sisip(mahasiswa dt1) {
+        Node n = pointer; //n digunakan utk mencari posisi dt
+        while ((n != null)) {
             n = n.next;
         }
         if (n == null) {
