@@ -39,10 +39,9 @@ public class SortLinkedList {
         System.out.println("sesudah diurutkan : ");
         ssl.sort();
         ssl.cetak("NIM\t| Nama\t| Score\t|");
-//        ssl.hapusDiDepan();
-//        ssl.cetak("NIM\t| Nama\t| Score\t|");
-//        ssl.hapusData(mhs5);
-//        ssl.cetak("NIM\t| Nama\t| Score\t|");
-          
+        ssl.hapusDiDepan();
+        ssl.cetak("NIM\t| Nama\t| Score\t|");
+        ssl.hapusData(mhs5);
+        ssl.cetak("NIM\t| Nama\t| Score\t|");
     }
 }
